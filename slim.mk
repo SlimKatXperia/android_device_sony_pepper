@@ -1,13 +1,10 @@
 $(call inherit-product, device/sony/pepper/pepper.mk)
 
-# Inherit CM common GSM stuff.
+# Inherit slim common GSM stuff.
 $(call inherit-product, vendor/slim/config/gsm.mk)
 
-# Inherit CM common Phone stuff.
+# Inherit slim common Phone stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
-
-# Enhanced NFC
-#$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
 PRODUCT_NAME := slim_pepper
 PRODUCT_DEVICE := pepper
