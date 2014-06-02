@@ -21,7 +21,9 @@ TW_EXTERNAL_STORAGE_PATH := "/external_sd"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
 TARGET_RECOVERY_FSTAB := device/sony/pepper/config/fstab.st-ericsson
 
-
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+ 
 # Specific flag for LED bar notification
 COMMON_GLOBAL_CFLAGS += -DNEW_NOTIFICATION
 
